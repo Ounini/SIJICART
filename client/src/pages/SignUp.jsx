@@ -75,7 +75,7 @@ function SignUp() {
     } catch (err) {
       setShowToast(true);
       setToastBg("danger");
-      console.error(err);
+      console.log(err.message, err.response.data);
       setToastText(err.response?.data || "Something went wrong");
     }
   };
