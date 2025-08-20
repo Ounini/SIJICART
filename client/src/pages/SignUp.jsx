@@ -149,7 +149,7 @@ function SignUp() {
           If you already have an account then
         </div>
 
-        <Button href="/login" className=" w-100 form-btn">
+        <Button href="login" className=" w-100 form-btn">
           Login
         </Button>
 
