@@ -8,11 +8,7 @@ export const refreshAccessToken = async () => {
 
     if (!refreshToken) return null;
 
-    const response = await justUrl.post(
-      "/auth/refresh-token",
-      {},
-      { withCredentials: true }
-    );
+    const response = await justUrl.post("/auth/refresh-token", {});
 
     const { accessToken, user } = response.data;
 

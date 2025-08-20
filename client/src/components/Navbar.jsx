@@ -570,7 +570,11 @@ function Navbar() {
                 onClick={() => navigate("/cart")}
               >
                 <IconButton sx={{ p: 0 }}>
-                  <Badge badgeContent={cartCount} color="error">
+                  <Badge
+                    badgeContent={cartCount}
+                    color="error"
+                    // className="badge"
+                  >
                     <i className="bi bi-cart iconed" />
                   </Badge>
                 </IconButton>

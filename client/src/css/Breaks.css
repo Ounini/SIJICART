@@ -110,7 +110,7 @@
     text-align: center;
     margin: 95px auto 0 !important;
   }
-  .css-v35f5g-MuiFormControl-root-MuiTextField-root {
+  .MuiFormControl-root {
     width: 50% !important;
   }
   .itemName {
@@ -321,7 +321,7 @@
     text-align: center;
     margin: 95px auto 0 !important;
   }
-  .css-v35f5g-MuiFormControl-root-MuiTextField-root {
+  .MuiFormControl-root {
     width: 50% !important;
   }
   .itemName {
@@ -540,7 +540,7 @@
     text-align: center;
     margin: 95px auto 0 !important;
   }
-  .css-v35f5g-MuiFormControl-root-MuiTextField-root {
+  .MuiFormControl-root {
     width: 50% !important;
   }
   .itemName {
@@ -772,7 +772,7 @@
     text-align: center;
     margin: 90px auto 0 !important;
   }
-  .css-v35f5g-MuiFormControl-root-MuiTextField-root {
+  .MuiFormControl-root {
     width: 50% !important;
   }
   .itemName {
