@@ -54,8 +54,8 @@ function App() {
 
           <Route path="/newIn" element={<NewIn />} />
 
-          <Route path="signup" element={<SignUp />} />
-          <Route path="login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
 
           <Route path="/:category/:subCategory" element={<ProductCategory />} />
           <Route
