@@ -1,0 +1,914 @@
+/* XXL */
+@media (min-width: 1400px) {
+  .productImg {
+    width: 80%;
+  }
+  .hero {
+    width: 60%;
+    margin: auto;
+  }
+
+  .forgot-text {
+    width: 500px;
+  }
+  .welcome {
+    font-size: 25px;
+  }
+  .productDetails {
+    padding-top: 220px !important;
+  }
+  .detailBtn-div {
+    display: flex;
+    justify-content: center;
+  }
+  .detailCart {
+    width: 400px !important;
+    border-radius: 20px;
+  }
+  .product-carousel {
+    width: 60% !important;
+  }
+  .sideDetail {
+    margin-bottom: 50px;
+  }
+  .review-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .review-div {
+    width: 500px;
+  }
+
+  .shapeForm {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .searchCon {
+    padding-top: 160px !important;
+  }
+
+  .order {
+    padding-top: 200px !important;
+  }
+  .orderCard {
+    width: 500px;
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  .flex-grow-1 {
+    flex: 1;
+  }
+
+  .navLogo {
+    width: 150px;
+  }
+  .logIn {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+  .line {
+    margin: 0 0 2rem;
+  }
+  .naved {
+    margin-top: 29px !important;
+  }
+  .navRow1 {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  header.MuiPaper-root {
+    height: auto;
+  }
+  .gadget .dropdown-menu {
+    height: 300px;
+  }
+  .electronics .dropdown-menu {
+    height: 350px;
+  }
+  .dropdown-item {
+    font-size: 12px !important;
+  }
+  .searchBar {
+    text-align: center;
+    margin: 95px auto 0 !important;
+  }
+  .css-v35f5g-MuiFormControl-root-MuiTextField-root {
+    width: 50% !important;
+  }
+  .itemName {
+    font-size: 13px !important;
+    padding: 10px;
+  }
+  .smallNav {
+    display: flex !important;
+    font-size: 12px !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  .smNavLink {
+    text-decoration: none;
+    color: black !important;
+  }
+  #nav-dropdown-dark-example {
+    text-decoration: none;
+    color: black !important;
+  }
+
+  .lsgin {
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .deliver {
+    background-color: rgb(253, 228, 206);
+    padding: 40px;
+  }
+  .BSP {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .TLD {
+    margin-bottom: 30px;
+  }
+  .ldNav {
+    justify-content: space-between;
+  }
+  .viwAl {
+    font-size: 15px;
+  }
+  .sales {
+    background-color: rgb(221, 217, 217);
+
+    margin: 10px;
+    padding: 5px;
+  }
+  .sales p {
+    font-size: 10px;
+  }
+  .sales h5 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .shop {
+    background-color: #bf5700 !important;
+    border-radius: 10px !important;
+    border: none !important;
+  }
+  .recommend {
+    background-color: purple;
+    color: white;
+  }
+  .recommend button {
+    background-color: #bf5700 !important;
+    border-radius: 20px !important;
+    border: none !important;
+    height: 40px;
+  }
+  .DMO {
+    background-color: #bf5700;
+    color: white;
+    font-size: 17px !important;
+    width: 150px;
+    padding-top: 12px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .timeCont {
+    width: 70px;
+    height: 65px;
+    padding: 5px;
+    text-align: center;
+    background-color: peachpuff;
+    margin: 0;
+    box-shadow: 2px 2px 4px black;
+  }
+  .timeCont h3 {
+    font-weight: 600;
+  }
+  .time p {
+    font-size: 10px;
+  }
+  .time {
+    align-items: center;
+    justify-content: center;
+  }
+  .allDetails h1 {
+    font-weight: 600;
+  }
+  .Bnner {
+    height: 500px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+  }
+  .bnnerCont {
+    justify-content: right;
+    align-items: right;
+  }
+}
+
+/* XL */
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .productImg {
+    width: 80%;
+  }
+  .hero {
+    width: 60%;
+    margin: auto;
+  }
+
+  .forgot-text {
+    width: 500px;
+  }
+  .welcome {
+    font-size: 25px;
+  }
+  .productDetails {
+    padding-top: 220px !important;
+  }
+  .detailBtn-div {
+    display: flex;
+    justify-content: center;
+  }
+  .detailCart {
+    width: 400px !important;
+    border-radius: 20px;
+  }
+  .product-carousel {
+    width: 60% !important;
+  }
+  .sideDetail {
+    margin-bottom: 50px;
+  }
+  .review-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .review-div {
+    width: 500px;
+  }
+
+  .shapeForm {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .searchCon {
+    padding-top: 140px !important;
+  }
+
+  .order {
+    padding-top: 200px !important;
+  }
+  .orderCard {
+    width: 500px;
+  }
+
+  .logIn {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+  .line {
+    margin: 0 0 2rem;
+  }
+  .naved {
+    margin-top: 29px !important;
+  }
+  .navRow1 {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  header.MuiPaper-root {
+    height: auto;
+  }
+  .gadget .dropdown-menu {
+    height: 300px;
+  }
+  .electronics .dropdown-menu {
+    height: 350px;
+  }
+  .dropdown-item {
+    font-size: 12px !important;
+  }
+  .searchBar {
+    text-align: center;
+    margin: 95px auto 0 !important;
+  }
+  .css-v35f5g-MuiFormControl-root-MuiTextField-root {
+    width: 50% !important;
+  }
+  .itemName {
+    font-size: 13px !important;
+    padding: 10px;
+  }
+  .smallNav {
+    display: flex !important;
+    font-size: 12px !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  .smNavLink {
+    text-decoration: none;
+    color: black !important;
+  }
+  #nav-dropdown-dark-example {
+    text-decoration: none;
+    color: black !important;
+  }
+
+  .navLogo {
+    width: 150px;
+  }
+
+  .lsgin {
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .deliver {
+    background-color: rgb(253, 228, 206);
+    padding: 40px;
+  }
+  .BSP {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .TLD {
+    margin-bottom: 30px;
+  }
+  .ldNav {
+    justify-content: space-between;
+  }
+  .viwAl {
+    font-size: 15px;
+  }
+  .sales {
+    background-color: rgb(221, 217, 217);
+
+    margin: 10px;
+    padding: 5px;
+  }
+  .sales p {
+    font-size: 10px;
+  }
+  .sales h5 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .shop {
+    background-color: #bf5700 !important;
+    border-radius: 10px !important;
+    border: none !important;
+  }
+  .recommend {
+    background-color: purple;
+    color: white;
+  }
+  .recommend button {
+    background-color: #bf5700 !important;
+    border-radius: 20px !important;
+    border: none !important;
+    height: 40px;
+  }
+  .DMO {
+    background-color: #bf5700;
+    color: white;
+    font-size: 17px !important;
+    width: 150px;
+    padding-top: 12px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .timeCont {
+    width: 70px;
+    height: 65px;
+    padding: 5px;
+    text-align: center;
+    background-color: peachpuff;
+    margin: 0;
+    box-shadow: 2px 2px 4px black;
+  }
+  .timeCont h3 {
+    font-weight: 600;
+  }
+  .time p {
+    font-size: 10px;
+  }
+  .time {
+    align-items: center;
+    justify-content: center;
+  }
+  .allDetails h1 {
+    font-weight: 600;
+  }
+  .Bnner {
+    height: 500px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+  }
+  .bnnerCont {
+    justify-content: right;
+    align-items: right;
+  }
+}
+
+/* LG */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .hero {
+    width: 60%;
+    margin: auto;
+  }
+
+  .forgot-text {
+    width: 500px;
+  }
+  .welcome {
+    font-size: 25px;
+  }
+  .product-carousel {
+    width: 60% !important;
+  }
+  .sideDetail {
+    margin-bottom: 50px;
+  }
+  .productDetails {
+    padding-top: 200px !important;
+  }
+  .detailBtn-div {
+    display: flex;
+    justify-content: center;
+  }
+  .detailCart {
+    width: 400px !important;
+    border-radius: 20px;
+  }
+  .sideDetail {
+    margin-bottom: 50px;
+  }
+  .review-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .review-div {
+    width: 500px;
+  }
+
+  .shapeForm {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .searchCon {
+    padding-top: 140px !important;
+  }
+
+  .order {
+    padding-top: 200px !important;
+  }
+  .orderCard {
+    width: 500px;
+  }
+  .productCard img {
+    width: 80%;
+  }
+
+  .logIn {
+    width: 500px;
+  }
+  .line {
+    margin: 0 0 2rem;
+  }
+  .navLogo {
+    width: 150px;
+  }
+  .naved {
+    margin-top: 29px !important;
+  }
+  .navRow1 {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  header.MuiPaper-root {
+    height: auto;
+  }
+  .gadget .dropdown-menu {
+    height: 300px;
+  }
+  .electronics .dropdown-menu {
+    height: 350px;
+  }
+  .dropdown-item {
+    font-size: 12px !important;
+  }
+  .searchBar {
+    text-align: center;
+    margin: 95px auto 0 !important;
+  }
+  .css-v35f5g-MuiFormControl-root-MuiTextField-root {
+    width: 50% !important;
+  }
+  .itemName {
+    font-size: 13px !important;
+    padding: 10px;
+  }
+  .smallNav {
+    display: flex !important;
+    font-size: 12px !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  .smNavLink {
+    text-decoration: none;
+    color: black !important;
+  }
+  #nav-dropdown-dark-example {
+    text-decoration: none;
+    color: black !important;
+  }
+  .discover2 div {
+    height: auto;
+  }
+  .discover2 img {
+    height: auto;
+    max-height: 250px;
+  }
+  .discover1 img {
+    height: 100%;
+  }
+  .marquee-content {
+    width: 1200px;
+  }
+  .marquee-content img {
+    height: 400px;
+    max-height: 250px;
+  }
+  .countDown {
+    right: -300px;
+    top: 100px;
+    display: flex;
+    gap: 1px;
+  }
+
+  .lsgin {
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .deliver {
+    background-color: rgb(253, 228, 206);
+    padding: 40px;
+  }
+  .BSP {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .TLD {
+    margin-bottom: 30px;
+  }
+  .ldNav {
+    justify-content: space-between;
+  }
+  .viwAl {
+    font-size: 15px;
+  }
+  .sales {
+    background-color: rgb(221, 217, 217);
+
+    margin: 10px;
+    padding: 5px;
+  }
+  .sales p {
+    font-size: 10px;
+  }
+  .sales h5 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .shop {
+    background-color: #bf5700 !important;
+    border-radius: 10px !important;
+    border: none !important;
+  }
+  .recommend {
+    background-color: purple;
+    color: white;
+  }
+  .recommend button {
+    background-color: #bf5700 !important;
+    border-radius: 20px !important;
+    border: none !important;
+    height: 40px;
+  }
+  .DMO {
+    background-color: #bf5700;
+    color: white;
+    font-size: 17px !important;
+    width: 150px;
+    padding-top: 12px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .timeCont {
+    width: 70px;
+    height: 65px;
+    padding: 5px;
+    text-align: center;
+    background-color: peachpuff;
+    margin: 0;
+    box-shadow: 2px 2px 4px black;
+  }
+  .timeCont h3 {
+    font-weight: 600;
+  }
+  .time p {
+    font-size: 10px;
+  }
+  .time {
+    align-items: center;
+    justify-content: center;
+  }
+  .allDetails h1 {
+    font-weight: 600;
+  }
+  .Bnner {
+    height: 500px;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+  }
+  .bnnerCont {
+    justify-content: right;
+    align-items: right;
+  }
+  .bannerImage img {
+    margin-top: 0 !important;
+  }
+}
+
+/* MD */
+@media (max-width: 991px) and (min-width: 768px) {
+  .hero {
+    width: 60%;
+    margin: auto;
+  }
+  .productImg {
+    width: 80%;
+  }
+
+  .forgot-text {
+    width: 500px;
+  }
+  .welcome {
+    font-size: 20px;
+  }
+  .proCaro-div {
+    display: flex;
+    justify-content: center;
+  }
+  .product-carousel {
+    width: 30% !important;
+  }
+  .productDetails {
+    padding-top: 220px !important;
+  }
+  .detailBtn-div {
+    display: flex;
+    justify-content: center;
+  }
+  .detailCart {
+    width: 400px !important;
+  }
+  .product-des {
+    margin-top: 40px;
+  }
+
+  .shapeForm {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .searchCon {
+    padding-top: 140px !important;
+  }
+
+  .order {
+    padding-top: 200px !important;
+  }
+  .orderCard {
+    width: 500px;
+  }
+
+  .logIn {
+    width: 500px;
+  }
+
+  .line {
+    margin: 0 0 2rem;
+  }
+  .naved {
+    margin-top: 29px !important;
+  }
+  .navRow1 {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  header.MuiPaper-root {
+    height: auto;
+  }
+  .gadget .dropdown-menu {
+    height: 300px;
+  }
+  .electronics .dropdown-menu {
+    height: 350px;
+  }
+  .dropdown-item {
+    font-size: 12px !important;
+  }
+  .searchBar {
+    text-align: center;
+    margin: 90px auto 0 !important;
+  }
+  .css-v35f5g-MuiFormControl-root-MuiTextField-root {
+    width: 50% !important;
+  }
+  .itemName {
+    font-size: 13px !important;
+    padding: 10px;
+  }
+  .smallNav {
+    display: flex !important;
+    font-size: 12px !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  .smNavLink {
+    text-decoration: none;
+    color: black !important;
+  }
+  #nav-dropdown-dark-example {
+    text-decoration: none;
+    color: black !important;
+  }
+  .discover2 div {
+    height: auto;
+  }
+  .discover2 img {
+    height: auto;
+    max-height: 250px;
+  }
+  .discover1 img {
+    height: 100%;
+  }
+  .marquee-content {
+    width: 1200px;
+  }
+  .marquee-content img {
+    height: 400px;
+    max-height: 250px;
+  }
+  .countDown {
+    right: -300px;
+    top: 100px;
+    display: flex;
+    gap: 1px;
+  }
+
+  .lsgin {
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .deliver {
+    background-color: rgb(253, 228, 206);
+    padding: 40px;
+  }
+  .BSP {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .TLD {
+    margin-bottom: 30px;
+  }
+  .ldNav {
+    justify-content: space-between;
+  }
+  .viwAl {
+    font-size: 15px;
+  }
+  .sales {
+    background-color: rgb(221, 217, 217);
+
+    margin: 10px;
+    padding: 5px;
+  }
+  .sales p {
+    font-size: 10px;
+  }
+  .sales h5 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .shop {
+    background-color: #bf5700 !important;
+    border-radius: 10px !important;
+    border: none !important;
+  }
+  .recommend {
+    background-color: purple;
+    color: white;
+  }
+  .recommend button {
+    background-color: #bf5700 !important;
+    border-radius: 20px !important;
+    border: none !important;
+    height: 40px;
+  }
+}
+
+/* SM */
+@media (max-width: 767px) and (min-width: 576px) {
+  .logIn {
+    width: 500px;
+  }
+
+  .productCard img {
+    width: 80%;
+  }
+
+  .proCaro-div {
+    display: flex;
+    justify-content: center;
+  }
+  .product-carousel {
+    width: 50% !important;
+  }
+
+  .adsTop {
+    font-size: 11px;
+  }
+  .discover2 div {
+    height: auto;
+  }
+  .discover2 img {
+    height: auto;
+    max-height: 150px;
+  }
+  .discover1 img {
+    height: 100%;
+  }
+  .productCard .card-img-top {
+    padding-top: 0 !important;
+  }
+}
+
+/* XS */
+@media (max-width: 575px) {
+}
