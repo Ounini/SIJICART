@@ -222,8 +222,8 @@ const resetPassword = async (req, res) => {
 const logout = async (req, res) => {
   res.clearCookie("refreshToken", {
     httpOnly: true,
-    // secure: true,
-    sameSite: "Strict",
+    secure: true,
+    sameSite: "None",
   });
 
   res.json({ message: "Successfully logged out" });
