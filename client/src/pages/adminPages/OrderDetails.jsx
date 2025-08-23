@@ -15,6 +15,7 @@ function OrderDetails() {
   const { selectedOrder, status, error } = useSelector((state) => state.order);
 
   useEffect(() => {
+    console.log("ran");
     if (status === "idle") {
       dispatch(fetchOrderById(id));
     }

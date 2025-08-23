@@ -20,7 +20,7 @@ function Cart() {
     <>
       <Navbar />
       <SearchBar products={products} />
-      <Container fluid className="p-0 mb-4 pt-140">
+      <Container fluid className="p-0 mb-4 pt-140 cart-container">
         <h4 className="text-center py-3">My Cart</h4>{" "}
         <div className="d-flex justify-content-between align-items-center px-3 py-1 myCartHead mb-2">
           <span>{cartItems.length} Items</span>{" "}

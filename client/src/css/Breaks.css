@@ -1,5 +1,9 @@
 /* XXL */
 @media (min-width: 1400px) {
+  .cart-container {
+    padding-top: 220px !important;
+  }
+
   .productImg {
     width: 80%;
   }
@@ -233,6 +237,10 @@
 
 /* XL */
 @media (max-width: 1399px) and (min-width: 1200px) {
+  .cart-container {
+    padding-top: 220px !important;
+  }
+
   .productImg {
     width: 80%;
   }
@@ -448,6 +456,10 @@
 
 /* LG */
 @media (max-width: 1199px) and (min-width: 992px) {
+  .cart-container {
+    padding-top: 220px !important;
+  }
+
   .hero {
     width: 60%;
     margin: auto;
@@ -690,6 +702,10 @@
 
 /* MD */
 @media (max-width: 991px) and (min-width: 768px) {
+  .cart-container {
+    padding-top: 200px !important;
+  }
+
   .hero {
     width: 60%;
     margin: auto;
