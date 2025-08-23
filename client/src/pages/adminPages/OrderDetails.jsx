@@ -14,6 +14,10 @@ function OrderDetails() {
   const dispatch = useDispatch();
   const { selectedOrder, status, error } = useSelector((state) => state.order);
 
+  console.log(selectedOrder);
+  console.log(status);
+  console.log(error);
+
   useEffect(() => {
     console.log("ran");
     if (status === "idle") {
