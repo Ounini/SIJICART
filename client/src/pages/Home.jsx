@@ -183,7 +183,7 @@ function Home() {
         <Row className="mt-5 mx-0 g-1 px-2 productRow">
           <div className="d-flex ldNav">
             <h4 className="px-2">The Latest Drops</h4>
-            <Link
+            {/* <Link
               to="#"
               className="d-none d-lg-block"
               style={{
@@ -200,10 +200,10 @@ function Home() {
                   >
                     View all
                   </Link> */}
-                </span>
+            {/*</span>
                 <FaArrowRight size={25} color="#bf5700" />
               </h5>
-            </Link>
+            </Link> */}
           </div>
           {products.map((product) => (
             <Col xs={6} sm={4} md={3} key={product._id}>
@@ -271,7 +271,7 @@ function Home() {
         <Row className="mt-3 g-1 productRow mx-0 px-2">
           <div className="d-flex ldNav">
             <h4 className="px-2">Best Selling Products</h4>
-            <Link
+            {/* <Link
               to="#"
               className="d-none d-lg-block"
               style={{
@@ -284,7 +284,7 @@ function Home() {
                 <span className="pr-10">View all</span>
                 <FaArrowRight size={25} color="#bf5700" />
               </h5>
-            </Link>
+            </Link> */}
           </div>
           {products.map((product) => (
             <Col xs={6} sm={4} md={3} key={product._id}>
@@ -329,7 +329,7 @@ function Home() {
         <Row className="mt-3 g-1 productRow mx-0 px-2">
           <div className="d-flex ldNav">
             <h4 className="px-2">Home Appliances</h4>
-            <Link
+            {/* <Link
               to="#"
               className="d-none d-lg-block"
               style={{
@@ -342,7 +342,7 @@ function Home() {
                 <span className="pr-10">View all</span>
                 <FaArrowRight size={25} color="#bf5700" />
               </h5>
-            </Link>
+            </Link> */}
           </div>
           {products.map((product) => (
             <Col xs={6} sm={4} md={3} key={product._id}>
