@@ -24,9 +24,9 @@ function OrderDetails() {
       dispatch(fetchOrderById(id));
     }
 
-    return () => {
-      dispatch(clearSelectedOrder());
-    };
+    // return () => {
+    //   dispatch(clearSelectedOrder());
+    // };
   }, [dispatch, id, status]);
 
   if (status === "loading") {
