@@ -14,9 +14,9 @@ function OrderDetails() {
   const dispatch = useDispatch();
   const { selectedOrder, status, error } = useSelector((state) => state.order);
 
-  console.log(selectedOrder);
-  console.log(status);
-  console.log(error);
+  console.log("selected order:", selectedOrder);
+  console.log("status:", status);
+  console.log("error:", error);
 
   useEffect(() => {
     console.log("ran");

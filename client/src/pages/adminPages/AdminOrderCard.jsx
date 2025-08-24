@@ -4,6 +4,8 @@ import { useCart } from "../../context/CartContext";
 const AdminOrderCard = ({ order }) => {
   const { formatPrice } = useCart();
 
+  console.log("Order received in the order card:", order);
+
   return (
     <Card className="mb-4 shadow-xl rounded-2xl p-4 bg-white">
       <div className="flex justify-between items-center">
