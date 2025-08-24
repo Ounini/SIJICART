@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import AdminNav from "./AdminNav";
 import { useEffect } from "react";
 import {
-  clearSelectedOrder,
+  // clearSelectedOrder,
   fetchOrderById,
 } from "../../features/order/orderSlice";
 import AdminOrderCard from "./AdminOrderCard";
